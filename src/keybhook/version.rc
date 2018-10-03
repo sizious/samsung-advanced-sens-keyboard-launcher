@@ -1,0 +1,29 @@
+
+1 VERSIONINFO
+FILEVERSION 1,1,2,25
+PRODUCTVERSION 1,1,2,25
+FILEOS 0x4
+FILETYPE 0x1
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040C04E4"
+	{
+		VALUE "CompanyName", "Created by [big_fury]SiZiOUS\0"
+		VALUE "FileDescription", "Advanced SENS Keyboard Launcher Keyboard Hook Library\0"
+		VALUE "FileVersion", "1.1.2.25\0"
+		VALUE "InternalName", "keybhook.dll\0"
+		VALUE "LegalCopyright", "© Copyright 2002, 2009\0"
+		VALUE "LegalTrademarks", "All copyrights or trademarks are the property of their respective owners\0"
+		VALUE "OriginalFilename", "keybhook.dll\0"
+		VALUE "ProductName", "Advanced SENS Keyboard Launcher\0"
+		VALUE "ProductVersion", "1.1.2.25\0"
+		VALUE "Comments", "http://sbibuilder.shorturl.com/\0"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x040C 0x04E4
+}
+}

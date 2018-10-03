@@ -1,0 +1,54 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{761f02c6-2a87-4427-9dfe-a032d8de1c6c}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="keybhook\keybhook.dproj" />
+    <Projects Include="recover\recover.dproj" />
+    <Projects Include="senskeyb.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject xmlns=""><Default.Personality></Default.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="senskeyb">
+    <MSBuild Projects="senskeyb.dproj" Targets="" />
+  </Target>
+  <Target Name="senskeyb:Clean">
+    <MSBuild Projects="senskeyb.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="senskeyb:Make">
+    <MSBuild Projects="senskeyb.dproj" Targets="Make" />
+  </Target>
+  <Target Name="keybhook">
+    <MSBuild Projects="keybhook\keybhook.dproj" Targets="" />
+  </Target>
+  <Target Name="keybhook:Clean">
+    <MSBuild Projects="keybhook\keybhook.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="keybhook:Make">
+    <MSBuild Projects="keybhook\keybhook.dproj" Targets="Make" />
+  </Target>
+  <Target Name="recover">
+    <MSBuild Projects="recover\recover.dproj" Targets="" />
+  </Target>
+  <Target Name="recover:Clean">
+    <MSBuild Projects="recover\recover.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="recover:Make">
+    <MSBuild Projects="recover\recover.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="senskeyb;keybhook;recover" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="senskeyb:Clean;keybhook:Clean;recover:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="senskeyb:Make;keybhook:Make;recover:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

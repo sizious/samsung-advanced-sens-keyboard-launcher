@@ -1,0 +1,76 @@
+[SENS Language Pack]
+Author=[big_fury]SiZiOUS
+Name=Français (France)
+Version=1.0
+
+[Titles]
+FatalError=Erreur fatale
+Information=Information
+Question=Question
+
+[Messages]
+OneInstanceOnly=Désolé, seulement une instance peut être lancée en même temps.<br/>Si vous voulez accéder à l'application, lancez l'application de Récupération à la place.
+KeyboardHookNotStarted=Erreur: Impossible de lancer la surveillance de l'état du clavier!
+RecoverMessageInfo=Si vous voulez accéder à l'application de nouveau, lancez l'application de Récupération depuis le Menu démarrer.
+QuitConfirmation=Êtes-vous sûr(e) de vouloir quitter?<br/>Les touches du clavier ne fonctionneront plus.
+
+[TrayIcon]
+Exit=Quitter
+Open=Ouvrir
+
+[Buttons]
+About=A &propos...
+Apply=&Appliquer
+Browse=Parcourir...
+Cancel=A&nnuler
+
+[Tabs]
+Standard=Standard
+Ctrl=Ctrl
+LShift=Maj G
+RShift=Maj D
+CtrlLShift=Ctrl + Maj G
+CtrlRShift=Ctrl + Maj D
+LShiftRShift=Maj G + Maj D
+CtrlLShiftRShift=Ctrl + Maj G + Maj D
+Config=Config
+Help=Aide
+
+[FunctionLabels]
+Internet=Internet :
+Mail=E-Mail :
+User=Utilisateur :
+
+[BrowseDialog]
+Title=Choississez votre application...
+ApplicationFilter=Applications
+AllFilesFilter=Tous les fichiers
+
+[TabsTitlesLabel]
+Standard=Standard
+Ctrl=Combinaisons avec la touche Ctrl
+LeftShift=Combinaisons avec la touche Majuscule Gauche
+RightShift=Combinaisons avec la touche Majuscule Droite
+CtrlLeftShift=Combinaisons avec les touches Ctrl + Majuscule Gauche
+CtrlRightShift=Combinaisons avec les touches Ctrl + Majuscule Droite
+LeftShiftRightShift=Combinaisons avec les touches Majuscule Gauche + Majuscule Droite
+CtrlLeftShiftRightShift=Combinaisons avec les touches Ctrl + Majuscule Gauche + Majuscule Droite
+Configuration=Configuration de l'application
+Help=Aide
+
+[ConfigurationTray]
+Tray=Zone de notification :
+Minimize=Réduire met en zone de notification
+Close=Fermer met en zone de notification
+Disabled=Ne pas utiliser, merci.
+
+[ConfigurationOptions]
+Options=Options :
+RunStartup=Lancer au démarrage de l'ordinateur
+PromptWhenClosing=Confirmer avant de quitter
+
+[Help]
+Description=Advanced SENS Keyboard Launcher est une application créée dans le but de remplacer l'application originale fournie par SAMSUNG. Cette petite application permet de définir jusqu'à 24 applications utilisable avec les 3 boutons de raccourcis situés sur votre clavier.
+NotMadeBySamsung=Cette application n'a PAS été créée par SAMSUNG.
+NoAltKey=La touche ALT n'est pas utilisable avec ce programme car le circuit interne des boutons raccourcis est basé sur cette touche.
+AppVersion=Version de l'application :

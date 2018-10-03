@@ -1,0 +1,9 @@
+Advanced SENS Keyboard Launcher is an application created to replace the original SENS Keyboard Launcher provided by SAMSUNG.
+
+This little application allow you to customize 24 applications usable with the 3 shortcut buttons on your keyboard.
+
+This application was NOT made by SAMSUNG.
+
+The ALT key can't be used because the internal circuit of these buttons is based on this key.
+
+SiZ!
