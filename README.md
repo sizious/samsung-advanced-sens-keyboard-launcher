@@ -9,6 +9,8 @@ This little application allow you to customize 24 applications usable with the
 
 This application was **NOT** made by **Samsung**.
 
+It was firstly released on **Nov 2nd, 2009**.
+
 # Usage
 
 Just install the **Samsung Advanced SENS Keyboard Launcher** tool instead of the
